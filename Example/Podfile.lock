@@ -1,0 +1,25 @@
+PODS:
+  - CobaLib (0.1.0)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+
+DEPENDENCIES:
+  - CobaLib (from `../`)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  CobaLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CobaLib: 6d382f92d547db23b31faffd77d825bc09d53f92
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+
+PODFILE CHECKSUM: 94426e782214013220bd1f496d0e44d99a6707cd
+
+COCOAPODS: 1.11.3

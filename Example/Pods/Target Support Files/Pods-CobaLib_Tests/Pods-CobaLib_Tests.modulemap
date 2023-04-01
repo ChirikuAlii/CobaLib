@@ -1,0 +1,6 @@
+framework module Pods_CobaLib_Tests {
+  umbrella header "Pods-CobaLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

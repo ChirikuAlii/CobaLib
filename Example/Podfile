@@ -2,12 +2,13 @@ use_frameworks!
 
 platform :ios, '10.0'
 
+
 target 'CobaLib_Example' do
   pod 'CobaLib', :path => '../'
-
+  pod 'SDWebImage', '~> 5.0'
+  
   target 'CobaLib_Tests' do
     inherit! :search_paths
-
     
   end
 end

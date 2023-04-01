@@ -1,0 +1,6 @@
+framework module CobaLib {
+  umbrella header "CobaLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
